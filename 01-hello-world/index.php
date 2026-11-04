@@ -15,4 +15,4 @@ $curso = "Técnico em Informática";
     <p>Meu nome é <?= $nome ?>.</p>
     <p>Estou aprendendo PHP no curso <?= $curso ?>.</p>
 </body>
-</html>
+</html> 
