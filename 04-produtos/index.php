@@ -13,8 +13,6 @@ $produtos = [
 usort($produtos, fn($a, $b) => $a["preco"] <=> $b["preco"]);
 
 $total = 0;
-foreach ($produtos as $item) {}
-$total = 0;
 foreach ($produtos as $item) {
     $total += $item["preco"] * $item["estoque"];
 }
